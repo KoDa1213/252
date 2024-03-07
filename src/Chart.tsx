@@ -428,7 +428,7 @@ const Chart = () => {
 (chartContainer.current as any)?.dispose();
   }, []);
 
-  return <div id="chartdiv" style={{width: '100vw', height: '100vh'}}></div>;
+  return <div id="chartdiv" style={{width: '100vw', height: '100vh', overflow: 'hidden'}}></div>;
 };
 
 export default Chart;
